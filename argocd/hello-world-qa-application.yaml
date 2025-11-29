@@ -13,7 +13,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/essesseff-hello-world-go-template/hello-world-argocd-qa
+    repoURL: https://github.com/essesseff-hello-world-go-template/hello-world-config-qa
     targetRevision: main
     path: .
     helm:
