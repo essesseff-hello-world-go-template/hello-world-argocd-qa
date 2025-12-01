@@ -64,6 +64,12 @@ hello-world-argocd-qa/
    - `hello-world-argocd-qa` - Root Application (watches this repository)
    - `hello-world-qa` - Environment Application (auto-synced by root Application)
 
+6. **Access the deployed application**:
+   ```bash
+   kubectl port-forward service/hello-world-qa 8081:80 -n essesseff-hello-world-go-template
+   # Access: http://localhost:8081
+   ```
+
 ## Application Details
 
 - **Name**: `hello-world-qa`
