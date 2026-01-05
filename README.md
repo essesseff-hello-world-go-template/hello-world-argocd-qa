@@ -175,7 +175,7 @@ hello-world-argocd-qa/
 
 This setup requires the essesseff platform for automated deployment orchestration:
 
-- **Event-driven promotions**: Automatic QA deployments on acceptance of release candidates in QA via essesseff UX
+- **Decision-driven promotions**: QA deployment executed by QA Engineer of release candidate via essesseff UX
 - **RBAC enforcement**: Role-based access control for code and config development, build, deployment, promotion, etc.
 - **Audit trail**: Complete history of all builds, deployments, promotions, etc.
 
